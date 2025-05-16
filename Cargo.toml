@@ -1,0 +1,15 @@
+[package]
+name = "caselaw_viewer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+regex = "1.11.1"
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.12.15", default-features = false, features = ["rustls-tls"] }
+chrono = "0.4.40"
+chrono-tz = "0.10.3"
+scraper = "0.23.1"
+html5ever = "0.31.0"
+html5gum = "0.7.0"
+tl = "0.7.8"
